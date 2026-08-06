@@ -1,0 +1,91 @@
+{
+  "trash_id": "lynchbros-custom-format-unwanted-sources-radarr",
+  "trash_scores": {
+    "default": -10000
+  },
+  "name": "Unwanted Sources",
+  "includeCustomFormatWhenRenaming": true,
+  "specifications": [
+    {
+      "name": "1080p_TS",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(?i:1080p_TS|1080p TS)\\b"
+      }
+    },
+    {
+      "name": "BLURRED",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(?i:BLURRED)\\b"
+      }
+    },
+    {
+      "name": "COLLECTiVE",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(?i:COLLECTiVE)\\b"
+      }
+    },
+    {
+      "name": "DRX",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(?i:DRX)\\b"
+      }
+    },
+    {
+      "name": "Extended",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(?i:Extended)\\b"
+      }
+    },
+    {
+      "name": "NLsubs",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(?i:NLsubs)\\b"
+      }
+    },
+    {
+      "name": "NoWatermarkIfDRXButNotDRX",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(?i:NoWatermarkIfDRXButNotDRX)\\b"
+      }
+    },
+    {
+      "name": "Robo29",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(?i:Robo29)\\b"
+      }
+    },
+    {
+      "name": "SasukeducK",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(?i:SasukeducK)\\b"
+      }
+    }
+  ]
+}

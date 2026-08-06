@@ -1,5 +1,10 @@
 {
   "json_paths": {
+    "radarr": {
+      "custom_formats": [
+        "radarr/custom_formats"
+      ]
+    },
     "sonarr": {
       "custom_formats": [
         "sonarr/custom_formats"
