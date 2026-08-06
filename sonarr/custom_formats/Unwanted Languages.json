@@ -1,0 +1,127 @@
+{
+  "trash_id": "lynchbros-custom-format-unwanted-languages",
+  "trash_scores": {
+    "default": -10000
+  },
+  "name": "Unwanted Languages",
+  "includeCustomFormatWhenRenaming": true,
+  "specifications": [
+    {
+      "name": "ARABIC",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(?i)\\b(ARABIC)\\b"
+      }
+    },
+    {
+      "name": "CZECH",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(?i)\\b(CZECH)\\b"
+      }
+    },
+    {
+      "name": "DUTCH",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(?i)\\b(DUTCH)\\b"
+      }
+    },
+    {
+      "name": "FRENCH",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(?i)\\b(FRENCH|FRENCHMUX|TRUEFRENCH)\\b"
+      }
+    },
+    {
+      "name": "GERMAN",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(?i)\\b(GERMAN)\\b"
+      }
+    },
+    {
+      "name": "HINDI",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(?i)\\b(HINDI)\\b"
+      }
+    },
+    {
+      "name": "HUNGARIAN",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(?i)\\b(HUNGARIAN)\\b"
+      }
+    },
+    {
+      "name": "ITALIAN",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(?i)\\b(ITALIAN)\\b"
+      }
+    },
+    {
+      "name": "LATINO",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(?i)\\b(LATINO)\\b"
+      }
+    },
+    {
+      "name": "POLISH",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(?i)\\b(POLISH)\\b"
+      }
+    },
+    {
+      "name": "RUSSIAN",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(?i)\\b(RUSSIAN)\\b"
+      }
+    },
+    {
+      "name": "SPANISH",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(?i)\\b(SPANISH|CASTELLANO)\\b"
+      }
+    },
+    {
+      "name": "TURKISH",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(?i)\\b(TURKISH)\\b"
+      }
+    }
+  ]
+}
