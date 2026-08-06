@@ -1,1 +1,1 @@
-# arr_custom_formats
+# Custom Formats for Radarr and Sonarr
