@@ -7,21 +7,12 @@
   "includeCustomFormatWhenRenaming": true,
   "specifications": [
     {
-      "name": "VIU",
+      "name": "VIKI",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(?i:VIU)\\b"
-      }
-    },
-    {
-      "name": "Netflix",
-      "implementation": "ReleaseTitleSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "\\b(?i:NF|Netflix)\\b"
+        "value": "\\b(?i:VIKI)\\b"
       }
     }
   ]
