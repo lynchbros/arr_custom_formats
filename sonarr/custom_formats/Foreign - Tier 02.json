@@ -1,0 +1,28 @@
+{
+  "trash_id": "9957b4e9-9f7d-459e-add9-771b145b5b65",
+  "trash_scores": {
+    "default": 0
+  },
+  "name": "Foreign - Tier 02",
+  "includeCustomFormatWhenRenaming": true,
+  "specifications": [
+    {
+      "name": "VIU",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(?i:VIU)\\b"
+      }
+    },
+    {
+      "name": "Netflix",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(?i:NF|Netflix)\\b"
+      }
+    }
+  ]
+}
