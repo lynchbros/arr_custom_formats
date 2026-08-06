@@ -122,6 +122,15 @@
       "fields": {
         "value": "(?i)\\b(TURKISH)\\b"
       }
+    },
+    {
+      "name": "UKRAINIAN",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(?i)\\b(UKRAINIAN)\\b"
+      }
     }
   ]
 }
