@@ -1,63 +1,81 @@
 {
-  "trash_id": "lynchbros-custom-format-foreign-tier-02",
+  "trash_id": "lynchbros-custom-format-foreign-tier-03",
   "trash_scores": {
     "default": 0
   },
-  "name": "Foreign - Tier 02",
+  "name": "Foreign - Tier 03",
   "includeCustomFormatWhenRenaming": true,
   "specifications": [
     {
-      "name": "FOD",
+      "name": "AAC-ADWeb",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(?i:FOD)\\b"
+        "value": "\\b(?i:AAC-ADWeb)\\b"
       }
     },
     {
-      "name": "HTSR",
+      "name": "CHDWEB",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(?i:HTSR)\\b"
+        "value": "\\b(?i:CHDWEB)\\b"
       }
     },
     {
-      "name": "TVER",
+      "name": "EDITH",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(?i:TVER)\\b"
+        "value": "\\b(?i:EDITH)\\b"
       }
     },
     {
-      "name": "TVING",
+      "name": "IQIYI",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(?i:TVING)\\b"
+        "value": "\\b(?i:IQIYI)\\b"
       }
     },
     {
-      "name": "U-NEXT",
+      "name": "KOCOWA",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(?i:U-NEXT)\\b"
+        "value": "\\b(?i:KOCOWA)\\b"
       }
     },
     {
-      "name": "VIKI",
+      "name": "Rakuten",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(?i:VIKI)\\b"
+        "value": "\\b(?i:Rakuten)\\b"
+      }
+    },
+    {
+      "name": "SYLIX",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(?i:SYLIX)\\b"
+      }
+    },
+    {
+      "name": "WeTV",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(?i:WeTV)\\b"
       }
     }
   ]
