@@ -1,0 +1,55 @@
+{
+  "trash_id": "lynchbros-custom-format-unwanted-sources",
+  "trash_scores": {
+    "default": -10000
+  },
+  "name": "Unwanted Sources",
+  "includeCustomFormatWhenRenaming": true,
+  "specifications": [
+    {
+      "name": "GERMANIZER",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(?i:GERMANIZER)\\b"
+      }
+    },
+    {
+      "name": "HHWEB",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(?i:HHWEB)\\b"
+      }
+    },
+    {
+      "name": "SAUERKRAUT",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(?i:SAUERKRAUT)\\b"
+      }
+    },
+    {
+      "name": "TEMPLATE",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(?i:TEMPLATE)\\b"
+      }
+    },
+    {
+      "name": "XYZGROUP",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(?i:XYZGROUP)\\b"
+      }
+    }
+  ]
+}
