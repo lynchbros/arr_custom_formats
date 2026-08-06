@@ -1,0 +1,9 @@
+{
+  "json_paths": {
+    "sonarr": {
+      "custom_formats": [
+        "sonarr/custom_formats"
+      ]
+    }
+  }
+}
