@@ -7,6 +7,15 @@
   "includeCustomFormatWhenRenaming": true,
   "specifications": [
     {
+      "name": "ABEMA",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(?i:ABEMA)\\b"
+      }
+    },
+    {
       "name": "FOD",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
@@ -25,21 +34,12 @@
       }
     },
     {
-      "name": "TVER",
+      "name": "IQIYI",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(?i:TVER)\\b"
-      }
-    },
-    {
-      "name": "TVING",
-      "implementation": "ReleaseTitleSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "\\b(?i:TVING)\\b"
+        "value": "\\b(?i:IQIYI)\\b"
       }
     },
     {
@@ -58,6 +58,24 @@
       "required": false,
       "fields": {
         "value": "\\b(?i:VIKI)\\b"
+      }
+    },
+    {
+      "name": "WeTV",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(?i:WeTV)\\b"
+      }
+    },
+    {
+      "name": "YOUKU",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(?i:YOUKU)\\b"
       }
     }
   ]

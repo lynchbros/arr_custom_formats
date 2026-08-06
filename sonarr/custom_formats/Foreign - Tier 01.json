@@ -16,12 +16,21 @@
       }
     },
     {
+      "name": "ATVP",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(?i:ATVP)\\b"
+      }
+    },
+    {
       "name": "DSNP",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(?i:DSNP)\\b"
+        "value": "\\b(?i:DSNP|Disney)\\b"
       }
     },
     {

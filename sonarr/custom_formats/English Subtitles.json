@@ -1,0 +1,19 @@
+{
+  "trash_id": "lynchbros-sonarr-english-subtitles",
+  "trash_scores": {
+    "default": 0
+  },
+  "name": "English Subtitles",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "English Subtitle Tags",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(?i)\\b(ENGSUB|ENG-SUB|ENG SUB|ENGSUBS|ENGLISH SUBS?|EN SUBS?|SUBBED|MULTISUB|MULTI-SUB|MULTI SUB|VOSTEN|ENGLISH)\\b"
+      }
+    }
+  ]
+}
