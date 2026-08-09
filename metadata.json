@@ -3,6 +3,15 @@
     "radarr": {
       "custom_formats": [
         "radarr/custom_formats"
+      ],
+      "naming": [
+        "radarr/naming"
+      ],
+      "qualities": [ 
+        "radarr/qualities"
+      ],
+      "quality_profiles": [
+        "radarr/quality_profiles"
       ]
     },
     "sonarr": {
