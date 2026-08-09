@@ -4,86 +4,86 @@
     {
       "quality": "HDTV-720p",
       "min": 5,
-      "preferred": 995,
-      "max": "unlimited"
+      "max": 1000,
+      "preferred": 995
     },
     {
       "quality": "HDTV-1080p",
       "min": 5,
-      "preferred": 995,
-      "max": "unlimited"
+      "max": 1000,
+      "preferred": 995
     },
     {
       "quality": "WEBRip-720p",
       "min": 5,
-      "preferred": 995,
-      "max": "unlimited"
+      "max": 1000,
+      "preferred": 995
     },
     {
       "quality": "WEBDL-720p",
       "min": 5,
-      "preferred": 995,
-      "max": "unlimited"
+      "max": 1000,
+      "preferred": 995
     },
     {
       "quality": "Bluray-720p",
       "min": 5,
-      "preferred": 995,
-      "max": "unlimited"
+      "max": 1000,
+      "preferred": 995
     },
     {
       "quality": "WEBRip-1080p",
       "min": 5,
-      "preferred": 995,
-      "max": "unlimited"
+      "max": 1000,
+      "preferred": 995
     },
     {
       "quality": "WEBDL-1080p",
       "min": 5,
-      "preferred": 995,
-      "max": "unlimited"
+      "max": 1000,
+      "preferred": 995
     },
     {
       "quality": "Bluray-1080p",
       "min": 5,
-      "preferred": 995,
-      "max": "unlimited"
+      "max": 1000,
+      "preferred": 995
     },
     {
       "quality": "Bluray-1080p Remux",
       "min": 5,
-      "preferred": 995,
-      "max": "unlimited"
+      "max": 1000,
+      "preferred": 995
     },
     {
       "quality": "HDTV-2160p",
-      "min": 25,
-      "preferred": 995,
-      "max": "unlimited"
+      "min": 20,
+      "max": 1000,
+      "preferred": 995
     },
     {
       "quality": "WEBRip-2160p",
-      "min": 25,
-      "preferred": 995,
-      "max": "unlimited"
+      "min": 20,
+      "max": 1000,
+      "preferred": 995
     },
     {
       "quality": "WEBDL-2160p",
-      "min": 25,
-      "preferred": 995,
-      "max": "unlimited"
+      "min": 20,
+      "max": 1000,
+      "preferred": 995
     },
     {
       "quality": "Bluray-2160p",
-      "min": 94.6,
-      "preferred": 995,
-      "max": "unlimited"
+      "min": 90,
+      "max": 1000,
+      "preferred": 995
     },
     {
       "quality": "Bluray-2160p Remux",
-      "min": 187.4,
-      "preferred": 995,
-      "max": "unlimited"
+      "min": 150,
+      "max": 1000,
+      "preferred": 995
     }
   ]
 }
