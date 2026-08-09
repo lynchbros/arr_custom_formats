@@ -15,7 +15,7 @@
       "quality_profiles": [
         "sonarr/quality_profiles"
       ],
-      "quality_size": [
+      "quality_size": [ 
         "sonarr/quality_size"
       ]
     }
