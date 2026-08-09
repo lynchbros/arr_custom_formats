@@ -9,6 +9,12 @@
       "custom_formats": [
         "sonarr/custom_formats"
       ],
+      "media_naming": [
+        "sonarr/media_naming"
+      ],
+      "quality_profiles": [
+        "sonarr/quality_profiles"
+      ],
       "quality_size": [
         "sonarr/quality_size"
       ]
