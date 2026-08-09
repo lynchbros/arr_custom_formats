@@ -4,7 +4,8 @@
     {
       "quality": "WEBDL-1080p",
       "min": 5,
-      "max": "unlimited"
+      "max": "unlimited",
+      "preferred": 995
     }
   ]
 }
