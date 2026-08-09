@@ -8,6 +8,9 @@
     "sonarr": {
       "custom_formats": [
         "sonarr/custom_formats"
+      ],
+      "quality_size": [
+        "sonarr/quality_size"
       ]
     }
   }
