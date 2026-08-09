@@ -57,7 +57,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(?i:NoWatermarkIfDRXButNotDRX)\\b"
+        "value": "\\b(?i:NLsubs)\\b"
       }
     },
     {
