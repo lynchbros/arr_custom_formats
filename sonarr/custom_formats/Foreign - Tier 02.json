@@ -70,15 +70,6 @@
       }
     },
     {
-      "name": "WeTV",
-      "implementation": "ReleaseTitleSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "\\b(?i:WeTV)\\b"
-      }
-    },
-    {
       "name": "YOUKU",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
