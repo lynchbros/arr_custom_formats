@@ -16,6 +16,15 @@
       }
     },
     {
+      "name": "DUSKLiGHT",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(?i:DUSKLiGHT)\\b"
+      }
+    },
+    {
       "name": "FOD",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
