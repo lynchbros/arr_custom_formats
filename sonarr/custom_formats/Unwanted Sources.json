@@ -16,6 +16,15 @@
       }
     },
     {
+      "name": "CHDWEB",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(?i:CHDWEB)\\b"
+      }
+    },
+    {
       "name": "HHWEB",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
