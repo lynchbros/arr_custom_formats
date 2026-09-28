@@ -7,12 +7,31 @@
   "includeCustomFormatWhenRenaming": false,
   "specifications": [
     {
-      "name": "Dual Audio",
+      "name": "English",
+      "implementation": "LanguageSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": 1,
+        "exceptLanguage": false
+      }
+    },
+    {
+      "name": "Dual or Multi",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": true,
       "fields": {
-        "value": "(?i)\\bdual\\b"
+        "value": "(?i)\\b(dual|multi)\\b"
+      }
+    },
+    {
+      "name": "No Sub",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": true,
+      "required": true,
+      "fields": {
+        "value": "(?i)sub"
       }
     }
   ]
