@@ -1,0 +1,19 @@
+{
+  "trash_id": "lynchbros-radarr-dual-audio",
+  "trash_scores": {
+    "default": 100
+  },
+  "name": "Dual Audio",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "Dual Audio",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": "(?i)\\bdual\\b"
+      }
+    }
+  ]
+}
