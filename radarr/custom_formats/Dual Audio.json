@@ -1,7 +1,7 @@
 {
   "trash_id": "lynchbros-radarr-dual-audio",
   "trash_scores": {
-    "default": 100
+    "default": 101
   },
   "name": "Dual Audio",
   "includeCustomFormatWhenRenaming": false,
