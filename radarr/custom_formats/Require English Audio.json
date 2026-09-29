@@ -1,0 +1,20 @@
+{
+  "trash_id": "lynchbros-radarr-require-english",
+  "trash_scores": {
+    "default": -10000
+  },
+  "name": "Require English Audio",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "Not English",
+      "implementation": "LanguageSpecification",
+      "negate": true,
+      "required": true,
+      "fields": {
+        "value": 1,
+        "exceptLanguage": false
+      }
+    }
+  ]
+}

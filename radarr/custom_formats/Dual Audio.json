@@ -7,16 +7,6 @@
   "includeCustomFormatWhenRenaming": false,
   "specifications": [
     {
-      "name": "English",
-      "implementation": "LanguageSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": 1,
-        "exceptLanguage": false
-      }
-    },
-    {
       "name": "Dual or Multi",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
